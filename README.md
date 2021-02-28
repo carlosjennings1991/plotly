@@ -9,4 +9,4 @@ We then chart these findings in three interactive graphs.
 
 ## Graph 1: Bar Chart
 
-<img src="https://github.com/carlosjennings1991/plotly_charts/blob/main/bar%20chart.png">
+<img src="https://github.com/carlosjennings1991/plotly_charts/blob/main/bar%20chart.png" width="454" height="448">
