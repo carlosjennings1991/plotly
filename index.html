@@ -6,21 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="static/css/stylesheet_from_bootstrap.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body style="background-color: rgb(208, 208, 208); font-family: 'Helvetica', sans-serif;">
 
   <div class="container">
     <div class="row">
-      <div class="col-md-12 jumbotron text-center">
+      <div class="col-md-12 jumbotron text-center" style="border-radius: 0px">
         <h1>Belly Button Biodiversity Dashboard</h1>
         <p>Use the interactive charts below to explore the dataset</p>
       </div>
     </div>
-    <div class="row">
+    <div style="height: 1px; background-color: #9b9b9b"></div>
+    <div class="row" style="padding-top: 20px; padding-bottom: 20px">
       <div class="col-md-2">
-        <div class="well">
+        <div class="well" style="border: solid 1px #337ab7">
           <h5>Test Subject ID No.:</h5>
           <!-- <select id="selDataset"></select> -->
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
@@ -33,22 +37,32 @@
         </div>
       </div>
       <div class="col-md-5">
-        <div id="bar"></div>
+        <div style="border: solid 1px #337ab7; border-radius: 3px; box-shadow: 2px 2px 4px 1px #b1b1b1">
+          <div id="bar"></div>
+        </div>
       </div>
       <div class="col-md-5">
-        <div id="gauge"></div>
+        <div style="border: solid 1px #337ab7; border-radius: 3px; border-radius: 3px; box-shadow: 2px 2px 4px 1px #b1b1b1">
+          <div id="gauge"></div>
+        </div>
       </div>
     </div>
-    <div class="row">
+    <div style="height: 1px; background-color: #9b9b9b"></div>
+    <div class="row" style="padding-top: 20px; padding-bottom: 40px">
       <div class="col-md-12">
-        <div id="bubble"></div>
+        <div style="border: solid 1px #337ab7; border-radius: 3px; border-radius: 3px; box-shadow: 2px 2px 4px 1px #b1b1b1">
+          <div id="bubble"></div>
+        </div>
       </div>
     </div>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="plots2.js"></script>
+  <!--<script src="static/js/plots2.js"></script>-->
+  <script src="static/js/bar_chart_starter_code.js"></script>
+  <!--<<script src="static/js/bar_chart_starter_code.js"></script>-->
+  <!--<script src="static/js/bar_chart_starter_code.js"></script>-->
 
 </body>
 

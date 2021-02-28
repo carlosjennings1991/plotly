@@ -2,7 +2,7 @@ function init() {
   var selector = d3.select("#selDataset");
 
   // use the 'then' because you want to wait for the data to load
-  d3.json("samples.json").then((data) => {
+  d3.json("static/js/samples.json").then((data) => {
     console.log(data);
     var sampleNames = data.names;
     sampleNames.forEach((sample) => {
@@ -28,7 +28,7 @@ function optionChanged(newSample) {
 // note: 'sample' below, the argument accepted by the buildMetadata function
 // is the same 'sample' from lines 15 and 16
 function buildMetadata(sample) {
-  d3.json("samples.json").then((data) => {
+  d3.json("static/js/samples.json").then((data) => {
     // remember, you are using dot.notation below. 'metadata' is an array in the 'samples.json' file
     var metadata = data.metadata;
     // 'sampleObj' is the instantiated pointer/object inside the 'metadata' array
