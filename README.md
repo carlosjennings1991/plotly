@@ -34,4 +34,14 @@ We are accustomed to seeing names on an x-axis, but here the name *is* a number.
 
 The y-axis is a more immediately understandable as it simply measures the size (i.e frequency) of the bacteria cultures. 
 
+---
+
+## Summary: 
+
+There's almost an infinite way to analyze medical data. There's a lot of numbers, a lot of sub-sets in the data, and correlations/ratios can be drawn up for pretty much anything. However, with every additional variable like age, gender, ethnic origin, weight etc, you cloud the data and make concrete conclusions harder to come by. 
+
+Is seeing the data valuable? Undoubtedly. Do we need to study it more methodically? Absolutely. 
+
+From a technical point of view, these charts were produced through a combination of javascript, html and css. 
+
   
