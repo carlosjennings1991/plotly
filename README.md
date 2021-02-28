@@ -10,3 +10,11 @@ We then chart these findings in three interactive graphs.
 ## Graph 1: Bar Chart
 
 <img src="https://github.com/carlosjennings1991/plotly_charts/blob/main/bar%20chart.png" width="454" height="448">
+
+Theres actually a bit more going on in this one. This horizontal bar chart shows the ten most common bacteria cultures per person. Every time you select a different person, the chart will change. 
+
+<br>
+
+## Graph 2: Gauge Chart
+
+<img src="https://github.com/carlosjennings1991/plotly_charts/blob/main/gauge%20chart.png" width="454" height="448">
