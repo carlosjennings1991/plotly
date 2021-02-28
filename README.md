@@ -17,8 +17,11 @@ Theres actually a bit more going on in this one. This horizontal bar chart shows
 
 ## Graph 2: Gauge Chart
 
-<div style="display: inline-block">
-  <div><img src="https://github.com/carlosjennings1991/plotly_charts/blob/main/gauge%20chart.png" width="454" height="448"></div>
-  <div><p>test test test</p></div>
-</div>
+<img src="https://github.com/carlosjennings1991/plotly_charts/blob/main/gauge%20chart.png" width="454" height="448">
+
+This chart, which is designed in the style known as a 'gauge chart', measures belly-button washing frequency i.e 'Scrubs Per Week'. 
+Any correlation between washing frequency and most common bacteria cultures measured in the bar chart has not yet been determined. 
+
+<br>
+
   
