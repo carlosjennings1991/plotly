@@ -17,4 +17,7 @@ Theres actually a bit more going on in this one. This horizontal bar chart shows
 
 ## Graph 2: Gauge Chart
 
-<img src="https://github.com/carlosjennings1991/plotly_charts/blob/main/gauge%20chart.png" width="454" height="448">
+<div style="float: left">
+  <img src="https://github.com/carlosjennings1991/plotly_charts/blob/main/gauge%20chart.png" width="454" height="448">
+</div>
+  
