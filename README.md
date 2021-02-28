@@ -24,4 +24,8 @@ Any correlation between washing frequency and most common bacteria cultures meas
 
 <br>
 
+## Graph 3: Bubble Chart
+
+<img src="https://github.com/carlosjennings1991/plotly_charts/blob/main/bubble%20chart.png">
+
   
