@@ -30,4 +30,8 @@ Any correlation between washing frequency and most common bacteria cultures meas
 
 There's also a bit more going on in this one than meets the eye. It measures all the bacteria cultures found in the patient, and the size of the bubble reflects the amount of bacteria found i.e (bigger bubbles = more bacteria). What's a little confusing to the untrained eye is the x-axis, which marks the Operational Taxonomic Unit (OTU). OTU's are the shorthand identifier for group of closely related items. In our circumstance, the closely related items are bacteria cultures. Bacteria cultures have really long naming-systems like 'Bacteria;Firmicutes;Clostridia;Clostridiales' so we use a shorthand instead - an OTU. 
 
+We are accustomed to seeing names on an x-axis, but here the name *is* a number. 
+
+The y-axis is a more immediately understandable as it simply measures the size (i.e frequency) of the bacteria cultures. 
+
   
