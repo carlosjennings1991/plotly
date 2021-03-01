@@ -9,10 +9,10 @@
   <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
   <link rel="stylesheet" href="static/css/stylesheet_from_bootstrap.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
-<body style="background-color: rgb(208, 208, 208); font-family: 'Helvetica', sans-serif;">
+<body style="background-color: rgb(208, 208, 208); font-family: 'Sulphur Point', sans-serif;">
 
   <div class="container">
     <div class="row">
@@ -48,10 +48,45 @@
       </div>
     </div>
     <div style="height: 1px; background-color: #9b9b9b"></div>
-    <div class="row" style="padding-top: 20px; padding-bottom: 40px">
+    <div class="row" style="padding-top: 20px; padding-bottom: 25px">
       <div class="col-md-12">
         <div style="border: solid 1px #337ab7; border-radius: 3px; border-radius: 3px; box-shadow: 2px 2px 4px 1px #b1b1b1">
           <div id="bubble"></div>
+        </div>
+      </div>
+    </div>
+    <div style="height: 1px; background-color: #9b9b9b"></div>
+    <div class="row" style="padding-top: 20px; padding-bottom: 25px">
+      <div class="col-md-5">
+        <div style="border: solid 1px #337ab7; border-radius: 3px; border-radius: 3px; box-shadow: 2px 2px 4px 1px #b1b1b1">
+          <div id="donutChart"></div>
+        </div>
+      </div>
+      <div class="col-md-7">
+        <div id="chart explainer">
+          <p style="padding-left: 10px; font-size: 16px">The first chart you see, the one on the top left measures the top 10 bacteria cultures per person.
+          Of course, there are typically more than 10 cultures per person, this chart simply looks at the top 10 and displays the percentage of each one within the top-ten subgroup.
+          <br><br>The chart on the top right measures the belly button washing frequency. Pretty gross, I get it, but important for the study.
+          <br><br>The third chart, the one titled 'Cultures per Sample' shows a more complete picture of the first chart. With the third one we show every 
+          bacteria culture found and the size of the circle is proportional to the amount of that bacteria found.
+          <br><br>The fourth chart, the one on the bottom left is simply another way of showing the first chart. Instead of showing the cultures as a bar, they are shown as parts of whole.
+          Considering this study looks at individual people, a modified pie chart (a donut chart) is more apt for the occasion since they better convey information that is part of a discrete unit.</p>
+        </div>
+      </div>
+    </div>
+    <div style="height: 1px; background-color: #9b9b9b"></div>
+    <div class="row" style="padding-top: 20px; padding-bottom: 25px">
+      <h1 style="text-align: center; padding-bottom: 15px">Additional Demographic Analyses</h1>
+      <div class="col-md-2">
+        <div class="well" style="border: solid 1px #337ab7">
+          <h5>Select An Age:</h5>
+          <select id="selDataset2" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Age Info</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
         </div>
       </div>
     </div>
@@ -60,7 +95,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <!--<script src="static/js/plots2.js"></script>-->
-  <script src="static/js/bar_chart_starter_code.js"></script>
+  <!--<script src="static/js/bar_chart_starter_code.js"></script>-->
+  <script src="static/js/all_charts.js"></script>
   <!--<<script src="static/js/bar_chart_starter_code.js"></script>-->
   <!--<script src="static/js/bar_chart_starter_code.js"></script>-->
 
