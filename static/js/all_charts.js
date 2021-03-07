@@ -3,7 +3,7 @@ function init() {
   var selector = d3.select("#selDataset");
 
   // use the 'then' because you want to wait for the data to load
-  d3.json("static/js/samples.json").then((data) => {
+  d3.json("https://cdn.jsdelivr.net/gh/carlosjennings1991/plotly_charts/static/js/samples.json").then((data) => {
     // check the console to see if it's successfully logging the data
     console.log(data);
     // you are using dot notation below. 'names' is an array within the 'data' 
@@ -39,7 +39,7 @@ function optionChanged(newSample) {
 // note: 'sample' below, the argument accepted by the buildMetadata function
 // is the same 'sample' from lines 15 and 16
 function buildMetadata(sample) {
-  d3.json("static/js/samples.json").then((data) => {
+  d3.json("https://cdn.jsdelivr.net/gh/carlosjennings1991/plotly_charts/static/js/samples.json").then((data) => {
     // remember, you are using dot.notation below. 'metadata' is an array in the 'samples.json' file
     var metadata = data.metadata;
     // 'sampleObj' is the instantiated pointer/object inside the 'metadata' array
@@ -64,7 +64,7 @@ function buildMetadata(sample) {
 // 1. Create the buildCharts function.
 function buildCharts(sample) {
   // 2. Use d3.json to load and retrieve the samples.json file 
-  d3.json("static/js/samples.json").then((data) => {
+  d3.json("https://cdn.jsdelivr.net/gh/carlosjennings1991/plotly_charts/static/js/samples.json").then((data) => {
     // 3. Create a variable that holds the samples array. 
     var samples = data.samples;
     // 4. Create a variable that filters the samples for the object with the desired sample number.
